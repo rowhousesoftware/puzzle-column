@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "com.rowhousesoftware/puzzle-column",
+  "title": "Puzzle Column",
+  "description": "Newspaper style puzzles with answers, a PDF and a paste-in snippet.",
+  "websiteUrl": "https://column.rowhousesoftware.com",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/rowhousesoftware/puzzle-column",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://column.rowhousesoftware.com/mcp"
+    }
+  ]
+}
